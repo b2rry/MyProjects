@@ -7,7 +7,7 @@ public class Point extends ControlZone{
         this.y = y;
     }
 
-    public int compareTo(ControlZone o){
+    public int compareToFORTREE(ControlZone o){
         System.out.println("\nenter");
         this.countDistance(o.x,o.y);
         System.out.print("   "+this.x);
@@ -39,6 +39,9 @@ public class Point extends ControlZone{
     }
     public void countDistance(double x,double y) {
         this.distance = Math.sqrt(Math.pow(this.x - x, 2) + Math.pow(this.y - y, 2));
+    }
+    public double countAndReturnDistance(double x,double y) {
+        return Math.sqrt(Math.pow(this.x - x, 2) + Math.pow(this.y - y, 2));
     }
     public int createCompNum(double thisXY,double oXY,double r){
         int compNum = 0;

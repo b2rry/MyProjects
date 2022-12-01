@@ -5,12 +5,19 @@ public class Main {
         //FileCreator test = new FileCreator("/home/kirill/MyProjects/ControlZonesCollection/data/controlZonesTestXY.txt");
         //test.createFile();
         //test.addZonesTest();
-        CZProcessing run = new CZProcessing();
-        run.testingInputTree();
-        run.tester();
+
+//        CZProcessing run = new CZProcessing();
+//        run.testingInputTree();
+//        run.tester();
+
 //        System.out.println(0b000+ " "+ 0b001+ " "+0b010+" "+0b011+" "+0b100);
 //        System.out.println(0b010&0b000);
 //        System.out.println(0b000|0b000);
 //        System.out.println(0b111^0b000);
+
+        //ControlZone t = new ControlZone("10 10.5 11 1.001");
+        //t.defineSquares();
+        CZProcessing run = new CZProcessing();
+        run.testerWithSquaresAndArrayLists();
     }
 }

@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class ControlZone implements Comparable<ControlZone>{
@@ -5,6 +6,7 @@ public class ControlZone implements Comparable<ControlZone>{
     protected double x;
     protected double y;
     protected double radius;
+    protected ArrayList<Square> inputSquares;
 
     public ControlZone(String inputZone){
         String[] mass = inputZone.split(" ");
@@ -12,6 +14,9 @@ public class ControlZone implements Comparable<ControlZone>{
         x = Double.parseDouble(mass[1]);
         y = Double.parseDouble(mass[2]);
         radius = Double.parseDouble(mass[3]);
+
+        defineSquares();//!!!!!!!!!!!!!!
+
     }
     public ControlZone(){
         id = 0;
@@ -20,8 +25,33 @@ public class ControlZone implements Comparable<ControlZone>{
         radius = 0;
     }
 
+    public void defineSquares(){
+        inputSquares = new ArrayList<Square>();
+        double begX;
+        double begY;
+        int dimensionSquare; //-0.00001 для исключения радиуса длиной в квадрат / нужно сделать проверку
+        int bufNum = (int)(radius-0.00001)+1;//предполагается узнавать максимальное кол-во затрагиваемых зоной квадратов в бок от центрального (bufNum = ((int)radius / колво км в одном квадрате)+1) // типо округлить в большую сторону радиус с учетом км в квадрате=)
+        dimensionSquare = (bufNum*2)+1;
+        begX = (int)x-bufNum;//нужно сделать улучшенный поиск для точек на сетке
+        begY = (int)y-bufNum;
+        for(int i = 0; i < dimensionSquare; i++){
+            for(int j = 0; j < dimensionSquare; j++){
+                if(begX >=0 && begY >= 0) inputSquares.add(new Square((int)begX,(int)begY));
+                begY++;
+            }
+            begY-=dimensionSquare;
+            begX++;
+        }
+//        for(Square s : inputSquares){
+//            System.out.println(s);
+//        }
+    }
+    public boolean containPoint(Point o){
+        if(this.radius >= o.countAndReturnDistance(x,y)) return true;
+        return false;
+    }//зачем я это сделал в объекте контрольной зоны? ...
     public int compareTo(ControlZone o){
-        System.out.print("1");
+        //System.out.print("1");
         if (this.x > o.x){
             return 1;
         }else if(this.x == o.x){
@@ -51,5 +81,8 @@ public class ControlZone implements Comparable<ControlZone>{
         String str2 = Double.toString(y);
         String ret = str + str2;
         return Objects.hash(ret);
+    }
+    public ArrayList<Square> getInputSquares(){
+        return inputSquares;
     }
 }
