@@ -94,4 +94,10 @@ public class ControlZone implements Comparable<ControlZone>{
     public ArrayList<Square> getInputSquares(){
         return inputSquares;
     }
+    public double getX(){
+        return this.x;
+    }
+    public double getY(){
+        return this.y;
+    }
 }

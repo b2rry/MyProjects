@@ -40,7 +40,6 @@ public class SquareMap {
         point.defineSquare(map, squareDimension);
         ArrayList<ControlZone> foundZones = new ArrayList<ControlZone>();
         Square foundSquare = point.getContainingSquare();
-        System.out.println(foundSquare);
         for(ControlZone curr : foundSquare.getZones()){
             if(curr.containPoint(point)) foundZones.add(curr);
         }
