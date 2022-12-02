@@ -10,6 +10,7 @@ public class CZProcessing {
     ArrayList<ControlZone> zonesList;
     List<String> lines;
     TreeMap<ControlZone,ControlZone> zonesTree;
+    SquareMap map;
 
     public CZProcessing(){
         zonesList = new ArrayList<ControlZone>();
@@ -19,14 +20,14 @@ public class CZProcessing {
     public void inputZoneTree() throws IOException {
         lines = readAllLines(Paths.get("/home/kirill/MyProjects/ControlZonesCollection/data/controlZonesTestXY.txt"));
         for(String line : lines){
-            ControlZone newObj = new ControlZone(line);
+            ControlZone newObj = new ControlZone(line,map.getSquareDimension(),map.getWebDimensionX(),map.getWebDimensionY());
             zonesTree.put(newObj,newObj);
         }
     }
     public void inputZoneList() throws IOException {
         lines = readAllLines(Paths.get("/home/kirill/MyProjects/ControlZonesCollection/data/handleZones.txt"));
         for(String line : lines){
-            zonesList.add(new ControlZone(line));
+            zonesList.add(new ControlZone(line,map.getSquareDimension(),map.getWebDimensionX(),map.getWebDimensionY()));
         }
     }
     public void testingOutputTree(){
@@ -44,15 +45,20 @@ public class CZProcessing {
         System.out.println(zonesTree.get(need));
     }
     public void testerWithSquaresAndArrayLists() throws IOException {
-        inputZoneList();
-        SquareMap map = new SquareMap(21);
+        map = new SquareMap(21,21,1);
         map.createMap();
+        inputZoneList();
         map.fillMap(zonesList);
         map.createMapFile();
         //Point object = new Point(5.8,5.6);
-        Point object = new Point(11,11);
-        ControlZone containingZone = map.findZone(object);
-        System.out.println("Found zone: "+ containingZone);
+        Point object = new Point(5.5,5.5);
+        ArrayList<ControlZone> foundZones = map.findZones(object);
+        System.out.println("The object is located in the following zones:");
+        int zoneNum = 0;
+        for(ControlZone found : foundZones) {
+            zoneNum++;
+            System.out.println("Zone " + zoneNum + ": " + found);
+        }
     }
     public static void main(String[] args) throws IOException {
         CZProcessing run = new CZProcessing();

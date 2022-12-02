@@ -4,40 +4,47 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 
 public class SquareMap {
-    private ArrayList<ArrayList<Square>> map;
-    private int dimension;
 
-    public SquareMap(int dimension){
-        this.dimension = dimension;
+    private ArrayList<ArrayList<Square>> map;
+    private int webDimensionX;
+    private int webDimensionY;
+    private int squareDimension;
+
+    public SquareMap(int webDimensionX, int webDimensionY, int squareDimension){
+        this.webDimensionX = webDimensionX;
+        this.webDimensionY = webDimensionY;
+        this.squareDimension = squareDimension;
         map = new ArrayList<ArrayList<Square>>();
     }
 
     public void createMap(){
-        for(int x = 0; x < dimension; x++){
+        for(int x = 0; x < webDimensionX; x+=squareDimension){
             ArrayList<Square> buf = new ArrayList<Square>();
-            for(int y = 0; y < dimension; y++){
+            for(int y = 0; y < webDimensionY; y+=squareDimension){
                 buf.add(new Square(x,y));
             }
-            map.add(x,buf);
+            map.add(buf);
         }
     }
     public void fillMap(ArrayList<ControlZone> zonesList){
         for(ControlZone zone : zonesList){
             ArrayList<Square> squaresInZone = zone.getInputSquares();
             for(Square currSquare : squaresInZone){
-                int currX = currSquare.getX();
-                int currY = currSquare.getY();
-                map.get(currX).get(currY).addZone(zone);
+                int currXInd = currSquare.getX()/squareDimension;
+                int currYInd = currSquare.getY()/squareDimension;
+                map.get(currXInd).get(currYInd).addZone(zone);
             }
         }
     }
-    public ControlZone findZone(Point point){
-        point.defineSquare(map);
+    public ArrayList<ControlZone> findZones(Point point){
+        point.defineSquare(map, squareDimension);
+        ArrayList<ControlZone> foundZones = new ArrayList<ControlZone>();
         Square foundSquare = point.getContainingSquare();
+        System.out.println(foundSquare);
         for(ControlZone curr : foundSquare.getZones()){
-            if(curr.containPoint(point)) return curr;
+            if(curr.containPoint(point)) foundZones.add(curr);
         }
-        return null;
+        return foundZones;
     }
     public void createMapFile() throws IOException {
         String path = "/home/kirill/MyProjects/ControlZonesCollection/data/map.txt";
@@ -58,5 +65,15 @@ public class SquareMap {
     }
     public ArrayList<ArrayList<Square>> getMap(){
         return map;
+    }
+
+    public int getSquareDimension() {
+        return squareDimension;
+    }
+    public int getWebDimensionX() {
+        return webDimensionX;
+    }
+    public int getWebDimensionY() {
+        return webDimensionY;
     }
 }

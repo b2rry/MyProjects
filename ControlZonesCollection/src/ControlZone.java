@@ -8,13 +8,13 @@ public class ControlZone implements Comparable<ControlZone>{
     protected double radius;
     protected ArrayList<Square> inputSquares;
 
-    public ControlZone(String inputZone){
+    public ControlZone(String inputZone, int squareDimension, int webDimensionX, int webDimensionY){
         String[] mass = inputZone.split(" ");
         id = Integer.parseInt(mass[0]);
         x = Double.parseDouble(mass[1]);
         y = Double.parseDouble(mass[2]);
         radius = Double.parseDouble(mass[3]);
-        defineSquares();
+        defineSquares(squareDimension,webDimensionX-1,webDimensionY-1);
     }
     public ControlZone(){
         id = 0;
@@ -23,22 +23,35 @@ public class ControlZone implements Comparable<ControlZone>{
         radius = 0;
     }
 
-    public void defineSquares(){
+    public void defineSquares(int squareDimension, int webMaxX, int webMaxY){
         inputSquares = new ArrayList<Square>();
         double begX;
         double begY;
-        int dimensionSquare; //-0.00001 для исключения радиуса длиной в квадрат, тк такой радиус бессмысленно расширит кол-во квадратов / нужно сделать проверку
-        int bufNum = (int)(radius-0.00001)+1;//предполагается узнавать максимальное кол-во затрагиваемых зоной квадратов в бок от центрального (bufNum = ((int)radius / колво км в одном квадрате)+1) // типо округлить в большую сторону радиус с учетом км в квадрате=)
-        dimensionSquare = (bufNum*2)+1;
-        begX = (int)x-bufNum;//нужно сделать улучшенный поиск для точек на сетке
-        begY = (int)y-bufNum;
-        for(int i = 0; i < dimensionSquare; i++){
-            for(int j = 0; j < dimensionSquare; j++){
-                if(begX >=0 && begY >= 0) inputSquares.add(new Square((int)begX,(int)begY));
-                begY++;
+        int dimensionResultSquare;
+        int bufNum;//максимальное кол-во затрагиваемых зоной квадратов в бок от центрального
+        if(radius/squareDimension == (int)(radius/squareDimension)){//если радиус кратен длине квадрата
+                bufNum = (int)(radius / squareDimension);
+        }else{ //предполагается узнавать максимальное кол-во затрагиваемых зоной квадратов в бок от центрального и добавлять один квадрат если радиус не кратен длине квадрата (bufNum = ((int)radius / колво км в одном квадрате)+1)
+            bufNum = (int)(radius/squareDimension)+1;
+        }
+        dimensionResultSquare = (bufNum*2)+1;
+        begX = (int)x;
+        begY = (int)y;
+        while(begX/squareDimension - (int)(begX/squareDimension) != 0) {
+            begX--;
+        }
+        while(begY/squareDimension - (int)(begY/squareDimension) != 0) {
+            begY--;
+        }
+        begX = begX-(bufNum*squareDimension);//координаты верхнего левого квадрата в который возможно входит зона. (int)x/(int)y - координаты содержащего в себе центр зоны квадрата
+        begY = begY-(bufNum*squareDimension);//нужно сделать улучшенный поиск для точек на сетке
+        for(int i = 0; i < dimensionResultSquare; i++){
+            for(int j = 0; j < dimensionResultSquare; j++){
+                if((begX >=0 && begY >= 0) && (begX <= webMaxX && begY <= webMaxY)) inputSquares.add(new Square((int)begX,(int)begY));
+                begY+=squareDimension;
             }
-            begY-=dimensionSquare;
-            begX++;
+            begY-=dimensionResultSquare*squareDimension;
+            begX+=squareDimension;
         }
     }
     public boolean containPoint(Point o){
