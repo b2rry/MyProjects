@@ -14,9 +14,7 @@ public class ControlZone implements Comparable<ControlZone>{
         x = Double.parseDouble(mass[1]);
         y = Double.parseDouble(mass[2]);
         radius = Double.parseDouble(mass[3]);
-
-        defineSquares();//!!!!!!!!!!!!!!
-
+        defineSquares();
     }
     public ControlZone(){
         id = 0;
@@ -29,7 +27,7 @@ public class ControlZone implements Comparable<ControlZone>{
         inputSquares = new ArrayList<Square>();
         double begX;
         double begY;
-        int dimensionSquare; //-0.00001 для исключения радиуса длиной в квадрат / нужно сделать проверку
+        int dimensionSquare; //-0.00001 для исключения радиуса длиной в квадрат, тк такой радиус бессмысленно расширит кол-во квадратов / нужно сделать проверку
         int bufNum = (int)(radius-0.00001)+1;//предполагается узнавать максимальное кол-во затрагиваемых зоной квадратов в бок от центрального (bufNum = ((int)radius / колво км в одном квадрате)+1) // типо округлить в большую сторону радиус с учетом км в квадрате=)
         dimensionSquare = (bufNum*2)+1;
         begX = (int)x-bufNum;//нужно сделать улучшенный поиск для точек на сетке
@@ -42,14 +40,12 @@ public class ControlZone implements Comparable<ControlZone>{
             begY-=dimensionSquare;
             begX++;
         }
-//        for(Square s : inputSquares){
-//            System.out.println(s);
-//        }
     }
     public boolean containPoint(Point o){
         if(this.radius >= o.countAndReturnDistance(x,y)) return true;
         return false;
-    }//зачем я это сделал в объекте контрольной зоны? ...
+    }
+
     public int compareTo(ControlZone o){
         //System.out.print("1");
         if (this.x > o.x){
@@ -62,9 +58,6 @@ public class ControlZone implements Comparable<ControlZone>{
             }
         }
         return -1;
-    }
-    public String toString(){
-        return "id: "+id+" X coord: "+x+" Y coord: "+y+" radius: "+radius;
     }
 
     public boolean equals(Object o){
@@ -81,6 +74,9 @@ public class ControlZone implements Comparable<ControlZone>{
         String str2 = Double.toString(y);
         String ret = str + str2;
         return Objects.hash(ret);
+    }
+    public String toString(){
+        return "id: "+id+" X coord: "+x+" Y coord: "+y+" radius: "+radius;
     }
     public ArrayList<Square> getInputSquares(){
         return inputSquares;

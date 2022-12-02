@@ -23,6 +23,26 @@ Square with coordinates:  X 0 Y 9
 Control Zones:
 Square with coordinates:  X 0 Y 10
 Control Zones:
+Square with coordinates:  X 0 Y 11
+Control Zones:
+Square with coordinates:  X 0 Y 12
+Control Zones:
+Square with coordinates:  X 0 Y 13
+Control Zones:
+Square with coordinates:  X 0 Y 14
+Control Zones:
+Square with coordinates:  X 0 Y 15
+Control Zones:
+Square with coordinates:  X 0 Y 16
+Control Zones:
+Square with coordinates:  X 0 Y 17
+Control Zones:
+Square with coordinates:  X 0 Y 18
+Control Zones:
+Square with coordinates:  X 0 Y 19
+Control Zones:
+Square with coordinates:  X 0 Y 20
+Control Zones:
 
 Square with coordinates:  X 1 Y 0
 Control Zones:
@@ -49,6 +69,26 @@ Square with coordinates:  X 1 Y 9
 Control Zones:
 Square with coordinates:  X 1 Y 10
 Control Zones:
+Square with coordinates:  X 1 Y 11
+Control Zones:
+Square with coordinates:  X 1 Y 12
+Control Zones:
+Square with coordinates:  X 1 Y 13
+Control Zones:
+Square with coordinates:  X 1 Y 14
+Control Zones:
+Square with coordinates:  X 1 Y 15
+Control Zones:
+Square with coordinates:  X 1 Y 16
+Control Zones:
+Square with coordinates:  X 1 Y 17
+Control Zones:
+Square with coordinates:  X 1 Y 18
+Control Zones:
+Square with coordinates:  X 1 Y 19
+Control Zones:
+Square with coordinates:  X 1 Y 20
+Control Zones:
 
 Square with coordinates:  X 2 Y 0
 Control Zones:
@@ -74,6 +114,26 @@ Control Zones:
 Square with coordinates:  X 2 Y 9
 Control Zones:
 Square with coordinates:  X 2 Y 10
+Control Zones:
+Square with coordinates:  X 2 Y 11
+Control Zones:
+Square with coordinates:  X 2 Y 12
+Control Zones:
+Square with coordinates:  X 2 Y 13
+Control Zones:
+Square with coordinates:  X 2 Y 14
+Control Zones:
+Square with coordinates:  X 2 Y 15
+Control Zones:
+Square with coordinates:  X 2 Y 16
+Control Zones:
+Square with coordinates:  X 2 Y 17
+Control Zones:
+Square with coordinates:  X 2 Y 18
+Control Zones:
+Square with coordinates:  X 2 Y 19
+Control Zones:
+Square with coordinates:  X 2 Y 20
 Control Zones:
 
 Square with coordinates:  X 3 Y 0
@@ -106,6 +166,26 @@ Control Zones:
 id: 4444 X coord: 5.5 Y coord: 7.5 radius: 2.0
 Square with coordinates:  X 3 Y 10
 Control Zones:
+Square with coordinates:  X 3 Y 11
+Control Zones:
+Square with coordinates:  X 3 Y 12
+Control Zones:
+Square with coordinates:  X 3 Y 13
+Control Zones:
+Square with coordinates:  X 3 Y 14
+Control Zones:
+Square with coordinates:  X 3 Y 15
+Control Zones:
+Square with coordinates:  X 3 Y 16
+Control Zones:
+Square with coordinates:  X 3 Y 17
+Control Zones:
+Square with coordinates:  X 3 Y 18
+Control Zones:
+Square with coordinates:  X 3 Y 19
+Control Zones:
+Square with coordinates:  X 3 Y 20
+Control Zones:
 
 Square with coordinates:  X 4 Y 0
 Control Zones:
@@ -136,6 +216,26 @@ Square with coordinates:  X 4 Y 9
 Control Zones:
 id: 4444 X coord: 5.5 Y coord: 7.5 radius: 2.0
 Square with coordinates:  X 4 Y 10
+Control Zones:
+Square with coordinates:  X 4 Y 11
+Control Zones:
+Square with coordinates:  X 4 Y 12
+Control Zones:
+Square with coordinates:  X 4 Y 13
+Control Zones:
+Square with coordinates:  X 4 Y 14
+Control Zones:
+Square with coordinates:  X 4 Y 15
+Control Zones:
+Square with coordinates:  X 4 Y 16
+Control Zones:
+Square with coordinates:  X 4 Y 17
+Control Zones:
+Square with coordinates:  X 4 Y 18
+Control Zones:
+Square with coordinates:  X 4 Y 19
+Control Zones:
+Square with coordinates:  X 4 Y 20
 Control Zones:
 
 Square with coordinates:  X 5 Y 0
@@ -171,6 +271,26 @@ Control Zones:
 id: 4444 X coord: 5.5 Y coord: 7.5 radius: 2.0
 Square with coordinates:  X 5 Y 10
 Control Zones:
+Square with coordinates:  X 5 Y 11
+Control Zones:
+Square with coordinates:  X 5 Y 12
+Control Zones:
+Square with coordinates:  X 5 Y 13
+Control Zones:
+Square with coordinates:  X 5 Y 14
+Control Zones:
+Square with coordinates:  X 5 Y 15
+Control Zones:
+Square with coordinates:  X 5 Y 16
+Control Zones:
+Square with coordinates:  X 5 Y 17
+Control Zones:
+Square with coordinates:  X 5 Y 18
+Control Zones:
+Square with coordinates:  X 5 Y 19
+Control Zones:
+Square with coordinates:  X 5 Y 20
+Control Zones:
 
 Square with coordinates:  X 6 Y 0
 Control Zones:
@@ -191,17 +311,52 @@ id: 4444 X coord: 5.5 Y coord: 7.5 radius: 2.0
 Square with coordinates:  X 6 Y 6
 Control Zones:
 id: 4444 X coord: 5.5 Y coord: 7.5 radius: 2.0
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 6 Y 7
 Control Zones:
 id: 4444 X coord: 5.5 Y coord: 7.5 radius: 2.0
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 6 Y 8
 Control Zones:
 id: 4444 X coord: 5.5 Y coord: 7.5 radius: 2.0
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 6 Y 9
 Control Zones:
 id: 4444 X coord: 5.5 Y coord: 7.5 radius: 2.0
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 6 Y 10
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 6 Y 11
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 6 Y 12
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 6 Y 13
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 6 Y 14
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 6 Y 15
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 6 Y 16
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 6 Y 17
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 6 Y 18
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 6 Y 19
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 6 Y 20
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 
 Square with coordinates:  X 7 Y 0
 Control Zones:
@@ -222,17 +377,52 @@ id: 4444 X coord: 5.5 Y coord: 7.5 radius: 2.0
 Square with coordinates:  X 7 Y 6
 Control Zones:
 id: 4444 X coord: 5.5 Y coord: 7.5 radius: 2.0
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 7 Y 7
 Control Zones:
 id: 4444 X coord: 5.5 Y coord: 7.5 radius: 2.0
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 7 Y 8
 Control Zones:
 id: 4444 X coord: 5.5 Y coord: 7.5 radius: 2.0
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 7 Y 9
 Control Zones:
 id: 4444 X coord: 5.5 Y coord: 7.5 radius: 2.0
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 7 Y 10
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 7 Y 11
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 7 Y 12
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 7 Y 13
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 7 Y 14
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 7 Y 15
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 7 Y 16
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 7 Y 17
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 7 Y 18
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 7 Y 19
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 7 Y 20
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 
 Square with coordinates:  X 8 Y 0
 Control Zones:
@@ -248,14 +438,49 @@ Square with coordinates:  X 8 Y 5
 Control Zones:
 Square with coordinates:  X 8 Y 6
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 8 Y 7
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 8 Y 8
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 8 Y 9
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 8 Y 10
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 8 Y 11
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 8 Y 12
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 8 Y 13
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 8 Y 14
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 8 Y 15
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 8 Y 16
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 8 Y 17
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 8 Y 18
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 8 Y 19
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 8 Y 20
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 
 Square with coordinates:  X 9 Y 0
 Control Zones:
@@ -271,14 +496,49 @@ Square with coordinates:  X 9 Y 5
 Control Zones:
 Square with coordinates:  X 9 Y 6
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 9 Y 7
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 9 Y 8
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 9 Y 9
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 9 Y 10
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 9 Y 11
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 9 Y 12
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 9 Y 13
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 9 Y 14
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 9 Y 15
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 9 Y 16
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 9 Y 17
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 9 Y 18
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 9 Y 19
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 9 Y 20
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 
 Square with coordinates:  X 10 Y 0
 Control Zones:
@@ -294,12 +554,627 @@ Square with coordinates:  X 10 Y 5
 Control Zones:
 Square with coordinates:  X 10 Y 6
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 10 Y 7
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 10 Y 8
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 10 Y 9
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 Square with coordinates:  X 10 Y 10
 Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 10 Y 11
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 10 Y 12
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 10 Y 13
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 10 Y 14
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 10 Y 15
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 10 Y 16
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 10 Y 17
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 10 Y 18
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 10 Y 19
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 10 Y 20
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+
+Square with coordinates:  X 11 Y 0
+Control Zones:
+Square with coordinates:  X 11 Y 1
+Control Zones:
+Square with coordinates:  X 11 Y 2
+Control Zones:
+Square with coordinates:  X 11 Y 3
+Control Zones:
+Square with coordinates:  X 11 Y 4
+Control Zones:
+Square with coordinates:  X 11 Y 5
+Control Zones:
+Square with coordinates:  X 11 Y 6
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 11 Y 7
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 11 Y 8
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 11 Y 9
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 11 Y 10
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 11 Y 11
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 11 Y 12
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 11 Y 13
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 11 Y 14
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 11 Y 15
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 11 Y 16
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 11 Y 17
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 11 Y 18
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 11 Y 19
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 11 Y 20
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+
+Square with coordinates:  X 12 Y 0
+Control Zones:
+Square with coordinates:  X 12 Y 1
+Control Zones:
+Square with coordinates:  X 12 Y 2
+Control Zones:
+Square with coordinates:  X 12 Y 3
+Control Zones:
+Square with coordinates:  X 12 Y 4
+Control Zones:
+Square with coordinates:  X 12 Y 5
+Control Zones:
+Square with coordinates:  X 12 Y 6
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 12 Y 7
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 12 Y 8
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 12 Y 9
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 12 Y 10
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 12 Y 11
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 12 Y 12
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 12 Y 13
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 12 Y 14
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 12 Y 15
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 12 Y 16
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 12 Y 17
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 12 Y 18
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 12 Y 19
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 12 Y 20
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+
+Square with coordinates:  X 13 Y 0
+Control Zones:
+Square with coordinates:  X 13 Y 1
+Control Zones:
+Square with coordinates:  X 13 Y 2
+Control Zones:
+Square with coordinates:  X 13 Y 3
+Control Zones:
+Square with coordinates:  X 13 Y 4
+Control Zones:
+Square with coordinates:  X 13 Y 5
+Control Zones:
+Square with coordinates:  X 13 Y 6
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 13 Y 7
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 13 Y 8
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 13 Y 9
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 13 Y 10
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 13 Y 11
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 13 Y 12
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 13 Y 13
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 13 Y 14
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 13 Y 15
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 13 Y 16
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 13 Y 17
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 13 Y 18
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 13 Y 19
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 13 Y 20
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+
+Square with coordinates:  X 14 Y 0
+Control Zones:
+Square with coordinates:  X 14 Y 1
+Control Zones:
+Square with coordinates:  X 14 Y 2
+Control Zones:
+Square with coordinates:  X 14 Y 3
+Control Zones:
+Square with coordinates:  X 14 Y 4
+Control Zones:
+Square with coordinates:  X 14 Y 5
+Control Zones:
+Square with coordinates:  X 14 Y 6
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 14 Y 7
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 14 Y 8
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 14 Y 9
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 14 Y 10
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 14 Y 11
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 14 Y 12
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 14 Y 13
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 14 Y 14
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 14 Y 15
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 14 Y 16
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 14 Y 17
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 14 Y 18
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 14 Y 19
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 14 Y 20
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+
+Square with coordinates:  X 15 Y 0
+Control Zones:
+Square with coordinates:  X 15 Y 1
+Control Zones:
+Square with coordinates:  X 15 Y 2
+Control Zones:
+Square with coordinates:  X 15 Y 3
+Control Zones:
+Square with coordinates:  X 15 Y 4
+Control Zones:
+Square with coordinates:  X 15 Y 5
+Control Zones:
+Square with coordinates:  X 15 Y 6
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 15 Y 7
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 15 Y 8
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 15 Y 9
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 15 Y 10
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 15 Y 11
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 15 Y 12
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 15 Y 13
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 15 Y 14
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 15 Y 15
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 15 Y 16
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 15 Y 17
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 15 Y 18
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 15 Y 19
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 15 Y 20
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+
+Square with coordinates:  X 16 Y 0
+Control Zones:
+Square with coordinates:  X 16 Y 1
+Control Zones:
+Square with coordinates:  X 16 Y 2
+Control Zones:
+Square with coordinates:  X 16 Y 3
+Control Zones:
+Square with coordinates:  X 16 Y 4
+Control Zones:
+Square with coordinates:  X 16 Y 5
+Control Zones:
+Square with coordinates:  X 16 Y 6
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 16 Y 7
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 16 Y 8
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 16 Y 9
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 16 Y 10
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 16 Y 11
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 16 Y 12
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 16 Y 13
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 16 Y 14
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 16 Y 15
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 16 Y 16
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 16 Y 17
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 16 Y 18
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 16 Y 19
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 16 Y 20
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+
+Square with coordinates:  X 17 Y 0
+Control Zones:
+Square with coordinates:  X 17 Y 1
+Control Zones:
+Square with coordinates:  X 17 Y 2
+Control Zones:
+Square with coordinates:  X 17 Y 3
+Control Zones:
+Square with coordinates:  X 17 Y 4
+Control Zones:
+Square with coordinates:  X 17 Y 5
+Control Zones:
+Square with coordinates:  X 17 Y 6
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 17 Y 7
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 17 Y 8
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 17 Y 9
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 17 Y 10
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 17 Y 11
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 17 Y 12
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 17 Y 13
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 17 Y 14
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 17 Y 15
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 17 Y 16
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 17 Y 17
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 17 Y 18
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 17 Y 19
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 17 Y 20
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+
+Square with coordinates:  X 18 Y 0
+Control Zones:
+Square with coordinates:  X 18 Y 1
+Control Zones:
+Square with coordinates:  X 18 Y 2
+Control Zones:
+Square with coordinates:  X 18 Y 3
+Control Zones:
+Square with coordinates:  X 18 Y 4
+Control Zones:
+Square with coordinates:  X 18 Y 5
+Control Zones:
+Square with coordinates:  X 18 Y 6
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 18 Y 7
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 18 Y 8
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 18 Y 9
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 18 Y 10
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 18 Y 11
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 18 Y 12
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 18 Y 13
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 18 Y 14
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 18 Y 15
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 18 Y 16
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 18 Y 17
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 18 Y 18
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 18 Y 19
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 18 Y 20
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+
+Square with coordinates:  X 19 Y 0
+Control Zones:
+Square with coordinates:  X 19 Y 1
+Control Zones:
+Square with coordinates:  X 19 Y 2
+Control Zones:
+Square with coordinates:  X 19 Y 3
+Control Zones:
+Square with coordinates:  X 19 Y 4
+Control Zones:
+Square with coordinates:  X 19 Y 5
+Control Zones:
+Square with coordinates:  X 19 Y 6
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 19 Y 7
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 19 Y 8
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 19 Y 9
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 19 Y 10
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 19 Y 11
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 19 Y 12
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 19 Y 13
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 19 Y 14
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 19 Y 15
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 19 Y 16
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 19 Y 17
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 19 Y 18
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 19 Y 19
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 19 Y 20
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+
+Square with coordinates:  X 20 Y 0
+Control Zones:
+Square with coordinates:  X 20 Y 1
+Control Zones:
+Square with coordinates:  X 20 Y 2
+Control Zones:
+Square with coordinates:  X 20 Y 3
+Control Zones:
+Square with coordinates:  X 20 Y 4
+Control Zones:
+Square with coordinates:  X 20 Y 5
+Control Zones:
+Square with coordinates:  X 20 Y 6
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 20 Y 7
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 20 Y 8
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 20 Y 9
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 20 Y 10
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 20 Y 11
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 20 Y 12
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 20 Y 13
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 20 Y 14
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 20 Y 15
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 20 Y 16
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 20 Y 17
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 20 Y 18
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 20 Y 19
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
+Square with coordinates:  X 20 Y 20
+Control Zones:
+id: 5555 X coord: 13.0 Y coord: 13.0 radius: 6.5
 

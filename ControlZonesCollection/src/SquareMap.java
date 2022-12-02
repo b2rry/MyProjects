@@ -31,8 +31,13 @@ public class SquareMap {
             }
         }
     }
-    public ArrayList<ArrayList<Square>> getMap(){
-        return map;
+    public ControlZone findZone(Point point){
+        point.defineSquare(map);
+        Square foundSquare = point.getContainingSquare();
+        for(ControlZone curr : foundSquare.getZones()){
+            if(curr.containPoint(point)) return curr;
+        }
+        return null;
     }
     public void createMapFile() throws IOException {
         String path = "/home/kirill/MyProjects/ControlZonesCollection/data/map.txt";
@@ -40,11 +45,8 @@ public class SquareMap {
         Files.createFile(Paths.get(path));
         ArrayList<String> lines = new ArrayList<String>();
         for(ArrayList<Square> list : map){
-            //String out = new String("X "+map.indexOf(list)+" ");
             StringBuilder out = new StringBuilder();
-            //out.append("\b");
             for(Square square : list){
-                //out += "Y "+list.indexOf(square)+". ";
                 out.append("Square with coordinates: ").append(square).append("\nControl Zones:\n");//в карту добавляются переносы строки в конце цикла для X из-за последнего переноса в этой строчке кода, баг но удобно=)
                 for (ControlZone zone : square.getZones()) {
                     out.append(zone).append("\n");
@@ -53,5 +55,8 @@ public class SquareMap {
             lines.add(out.toString());
         }
         Files.write(Paths.get(path),lines);
+    }
+    public ArrayList<ArrayList<Square>> getMap(){
+        return map;
     }
 }

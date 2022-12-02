@@ -16,14 +16,14 @@ public class CZProcessing {
         zonesTree = new TreeMap<ControlZone,ControlZone>();
     }
 
-    public void inputTree() throws IOException {
+    public void inputZoneTree() throws IOException {
         lines = readAllLines(Paths.get("/home/kirill/MyProjects/ControlZonesCollection/data/controlZonesTestXY.txt"));
         for(String line : lines){
             ControlZone newObj = new ControlZone(line);
             zonesTree.put(newObj,newObj);
         }
     }
-    public void inputList() throws IOException {
+    public void inputZoneList() throws IOException {
         lines = readAllLines(Paths.get("/home/kirill/MyProjects/ControlZonesCollection/data/handleZones.txt"));
         for(String line : lines){
             zonesList.add(new ControlZone(line));
@@ -41,16 +41,21 @@ public class CZProcessing {
     public void testerWithTree(){
         Point need = new Point(82.5,47.5);
         System.out.println(need);
-        System.out.println(zonesTree.get(need));//видимо нужно переопределять equals и hashCode
-//        System.out.println(need.hashCode());
-//        System.out.println(tree.get(need).hashCode());
-//        System.out.println(need.equals(tree.get(need)));
+        System.out.println(zonesTree.get(need));
     }
     public void testerWithSquaresAndArrayLists() throws IOException {
-        inputList();
-        SquareMap map = new SquareMap(11);
+        inputZoneList();
+        SquareMap map = new SquareMap(21);
         map.createMap();
         map.fillMap(zonesList);
         map.createMapFile();
+        //Point object = new Point(5.8,5.6);
+        Point object = new Point(11,11);
+        ControlZone containingZone = map.findZone(object);
+        System.out.println("Found zone: "+ containingZone);
+    }
+    public static void main(String[] args) throws IOException {
+        CZProcessing run = new CZProcessing();
+        run.testerWithSquaresAndArrayLists();
     }
 }

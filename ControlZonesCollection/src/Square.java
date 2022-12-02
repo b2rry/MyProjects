@@ -13,11 +13,11 @@ public class Square {
     public void addZone(ControlZone inputZ){
         inputZones.add(inputZ);
     }
-    public ArrayList<ControlZone> getZones(){
-        return inputZones;
-    }
     public String toString(){
         return " X "+x+" "+"Y "+y;
+    }
+    public ArrayList<ControlZone> getZones(){
+        return inputZones;
     }
     public int getX(){
         return x;
