@@ -89,9 +89,13 @@ public class InputOutput {
     }
     public void outputFoundZonesList(ArrayList<ControlZone> foundZones){
         int zoneNum = 0;
-        for(ControlZone found : foundZones) {
-            zoneNum++;
-            System.out.println("Zone " + zoneNum + ": " + found);
+        if(foundZones != null) {
+            for (ControlZone found : foundZones) {
+                zoneNum++;
+                System.out.println("Zone " + zoneNum + ": " + found);
+            }
+        }else{
+            System.out.println("No one zone contains the point");
         }
         System.out.println();
     }

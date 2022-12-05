@@ -10,7 +10,7 @@ public class Point extends ControlZone{
         this.y = y;
     }
 
-    public void defineSquare(ArrayList<ArrayList<Square>> map, int squareDimension){//map не объект типа SquareMap потому что вызывается из класса SquareMap
+    public void defineSquare(ArrayList<ArrayList<Square>> map, int squareDimension){//аргумент map не объект типа SquareMap потому что вызывается из класса SquareMap
         int sqX = (int)x;//улучшать для нахождения на сетке
         int sqY = (int)y;
         containingSquare = map.get(sqX/squareDimension).get(sqY/squareDimension);

@@ -36,6 +36,14 @@ public class SquareMap {
             }
         }
     }
+    public void addOneZoneInMap(ControlZone zone){
+        ArrayList<Square> squaresInZone = zone.getInputSquares();
+        for(Square currSquare : squaresInZone){
+            int currXInd = currSquare.getX()/squareDimension;
+            int currYInd = currSquare.getY()/squareDimension;
+            map.get(currXInd).get(currYInd).addZone(zone);
+        }
+    }
     public ArrayList<ControlZone> findZones(Point point){
         point.defineSquare(map, squareDimension);
         ArrayList<ControlZone> foundZones = new ArrayList<ControlZone>();
@@ -43,6 +51,7 @@ public class SquareMap {
         for(ControlZone curr : foundSquare.getZones()){
             if(curr.containPoint(point)) foundZones.add(curr);
         }
+        if(foundZones.size() == 0) return null;
         return foundZones;
     }
     public void createMapFile() throws IOException {

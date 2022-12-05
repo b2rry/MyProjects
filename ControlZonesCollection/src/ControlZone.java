@@ -2,10 +2,11 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class ControlZone implements Comparable<ControlZone>{
-    private int id;
+    private int id; //изменить содержимое ID, предполагаю ввод пользователя + функц hashcode
     protected double x;
     protected double y;
     protected double radius;
+    protected String checkStr;
     protected ArrayList<Square> inputSquares;
 
     public ControlZone(String inputZone, int squareDimension, int webDimensionX, int webDimensionY){
@@ -14,7 +15,16 @@ public class ControlZone implements Comparable<ControlZone>{
         x = Double.parseDouble(mass[1]);
         y = Double.parseDouble(mass[2]);
         radius = Double.parseDouble(mass[3]);
-        defineSquares(squareDimension,webDimensionX-1,webDimensionY-1);
+        checkStr = mass[1] + mass[2];
+        defineSquares(squareDimension,webDimensionX-1,webDimensionY-1);//уместно ли в конструкторе производить вычисления...
+    }
+    public ControlZone(int id, double x, double y, double radius, int squareDimension, int webDimensionX, int webDimensionY){
+        this.id = id;
+        this.x = x;
+        this.y = y;
+        this.radius = radius;
+        checkStr = Double.toString(x) + Double.toString(y);
+        defineSquares(squareDimension,webDimensionX-1,webDimensionY-1);//уместно ли в конструкторе производить вычисления...
     }
     public ControlZone(){
         id = 0;
@@ -74,7 +84,7 @@ public class ControlZone implements Comparable<ControlZone>{
     }
 
     public boolean equals(Object o){
-        System.out.print("2");
+        System.out.print("czeq");
         ControlZone obj = (ControlZone) o;
         if(this.hashCode() == obj.hashCode()){
             return true;
